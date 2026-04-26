@@ -1,0 +1,9 @@
+{
+  "name": "invest-agent",
+  "version": "0.1.0",
+  "description": "Investment analysis orchestrator — routes stock trading tasks across data, analysis, trading, and reporting skills via three-level dispatch (L1 direct / L2 subagent / L3 agent team)",
+  "author": {
+    "name": "linzekun"
+  },
+  "keywords": ["investing", "stock", "trading", "analysis", "orchestrator", "finance"]
+}
