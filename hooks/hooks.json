@@ -1,12 +1,14 @@
 {
-  "SubagentStop": [
-    {
-      "hooks": [
-        {
-          "type": "prompt",
-          "prompt": "Before finishing, verify that all analysis results have been written to the invest-reports output directory. If any expected output file is missing, flag it to the user."
-        }
-      ]
-    }
-  ]
+  "hooks": {
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Before finishing, verify that all analysis results have been written to the invest-reports output directory. If any expected output file is missing, flag it to the user."
+          }
+        ]
+      }
+    ]
+  }
 }
