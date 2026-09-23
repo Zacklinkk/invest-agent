@@ -2,6 +2,20 @@
 
 投资分析编排插件 — 通过三级调度（L1 直答 / L2 单专家团队 / L3 多 Agent 团队）协调 20+ 个金融分析 skill，完成选股、择时、宏观周期判断与交易方案设计。
 
+## 公开研报展示
+
+部分用本插件生成的交互式 HTML 研报，已归档在公开仓库 [trading_agent](https://github.com/Zacklinkk/trading_agent)，并可在线阅读：
+
+- 仓库：<https://github.com/Zacklinkk/trading_agent>
+- Pages：<https://zacklinkk.github.io/trading_agent/>
+
+| 仓库 | 角色 |
+|------|------|
+| 本仓库 `invest-agent` | 分析编排插件（L1 / L2 / L3），产出分析结论与交互式 HTML |
+| [trading_agent](https://github.com/Zacklinkk/trading_agent) | GitHub Pages 门户与已发布研报归档 |
+
+典型流程：本插件 L3 全量分析 → 生成 `report.html` → 整理进 `trading_agent` 的 `reports/` 并更新 `manifest.json` 后对外展示。
+
 ## 功能概览
 
 | 级别 | 触发条件 | 执行方式 | 典型场景 |
